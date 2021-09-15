@@ -606,13 +606,13 @@ async def my_event_handler(event):
     #     conn.close()
     if event.raw_text == '/premium':
         await event.reply(premi, buttons=[
-            [Button.url('Join Rxs', 'https://telegram.me/TEAM_CEX_CHATS)]
+            [Button.url('Join Rxs', 'https://telegram.me/TEAM_CEX_CHATS')]
         ])
     if event.raw_text == '/start':
         await event.reply(start_msg)
     if event.raw_text == '/cmds':
         await event.reply(cmdi, buttons=[
-            [Button.url('Join Rxs', 'https://telegram.me/TEAM_CEX_CHATS)]
+            [Button.url('Join Rxs', 'https://telegram.me/TEAM_CEX_CHATS')]
         ])
     else:
         ssender = []
